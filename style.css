@@ -1,0 +1,46 @@
+/* CSS for Stopwatch div */
+#stopwatch_div {
+  width: 35%;
+  height: auto;
+  color: rgb(109, 106, 106);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  background-color: rgb(232, 225, 155);
+  padding: 20px;
+  border-radius: 20px;
+}
+#display {
+  font-size: 50px;
+  font-weight: bold;
+}
+#startStop {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid rgb(236, 201, 236);
+  background-color: rgb(238, 83, 236);
+  cursor: pointer;
+}
+#startStop > i {
+  width: 100%;
+  height: auto;
+  color: white;
+}
+#reset {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 4px solid rgb(236, 201, 236);
+  background-color: rgb(238, 83, 236);
+  cursor: pointer;
+}
+#reset > i {
+  width: 100%;
+  height: auto;
+  color: white;
+}

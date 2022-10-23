@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhijit Stopwatch</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://play-lh.googleusercontent.com/3JXMgKMnBsC0YDQ256FngWrrIRPSQj-laxFyNLQZf8fr7b8-6hTwvFLK7B-3MMbG6dvt"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/2c5129cb2c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="stopwatch_div">
+      <!-- div for display stopwatch  -->
+      <div id="display">0:00:00</div>
+
+      <!-- div for play pause and reset botton -->
+      <div class="buttons">
+        <button id="startStop" onclick="startStop()">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button id="reset" onclick="reset()">
+          <i class="fa-solid fa-power-off"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts.js"></script>
